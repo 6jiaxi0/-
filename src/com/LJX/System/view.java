@@ -4,8 +4,9 @@ import java.util.Scanner;
 
 public class view {
     public static void main(String[] args) {
-
+        MangeSystem mangeSystem = MangeSystem.start0();
         Scanner scanner = new Scanner(System.in);
+
         while (true) {
             System.out.println("--------欢迎来到学生管理系统--------");
             System.out.println("1 查看所有学生");
@@ -20,16 +21,16 @@ public class view {
 
             switch (choice) {
                 case 1:
-                  //  viewStudents();
+                    mangeSystem.viewStudents();
                     break;
                 case 2:
-                  //  addStudent(scanner);
+                    mangeSystem.addStudent(scanner);
                     break;
                 case 3:
-                   // deleteStudent(scanner);
+                    mangeSystem.deleteStudent(scanner);
                     break;
                 case 4:
-                   // modifyStudent(scanner);
+                   mangeSystem.modifyStudent(scanner);
                     break;
                 case 5:
                     System.out.println("退出系统。");
