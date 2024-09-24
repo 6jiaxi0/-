@@ -1,6 +1,8 @@
+package com.LJX.HomeWork;
+
 import java.util.Objects;
 
-public class Pair <K,V> implements Entry<K,V>{
+public class Pair <K,V> implements Entry<K,V> {
     K key;
     V value;
 

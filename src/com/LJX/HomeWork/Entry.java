@@ -1,3 +1,5 @@
+package com.LJX.HomeWork;
+
 public interface Entry<K,V> {
      K getKey();
      V getValue();
