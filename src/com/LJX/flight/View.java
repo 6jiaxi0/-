@@ -31,7 +31,7 @@ package com.LJX.flight;
  */
 
 
-public class Main {
+public class View {
     public static void main(String[] args) {
         new ReservationSystemProxy().startReservationSystem();
     }
