@@ -146,6 +146,4 @@ public class ReservationSystemProxy implements Proxy{
         }
         return false; // 没有找到0，返回false
     }
-//是否有候补
-
 }
